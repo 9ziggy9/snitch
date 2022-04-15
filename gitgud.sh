@@ -4,9 +4,9 @@ SNITCH_DIR="$HOME/snitch_repos"
 
 usage () { echo "Hello, usage!"; exit 1; }
 
-while getopts ":a:bc:" opt; do
+while getopts ":d:bc:" opt; do
     case "${opt}" in
-	a) SNITCH_DIR=$OPTARG
+	d) SNITCH_DIR=$OPTARG
 	   echo $SNITCH_DIR ;;
 	b) printf "I takes me no arguments\n" ;;
 	c) printf 'Got c: "%s"\n' "$OPTARG" ;;
