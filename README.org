@@ -1,0 +1,2 @@
+#+TITLE: Snitch
+Snitch is a little console based tool for monitor student repos.
