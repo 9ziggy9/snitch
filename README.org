@@ -1,2 +1,2 @@
 #+TITLE: Snitch
-Snitch is a little console based tool for monitor student repos.
+Snitch is a little console based tool for monitor student repos. Experimenting with methods to listen for altered projects.
